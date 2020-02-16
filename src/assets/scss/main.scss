@@ -20,6 +20,10 @@ html {
   }
 }
 
+input {
+  border: 1px solid $border-lightex;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -104,3 +108,6 @@ section,
 
 // Modules:
 // example: @import "modules/my-module.scss";
+
+
+@import "./common.scss";
